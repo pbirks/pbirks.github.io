@@ -7,13 +7,13 @@ const navLink = document.querySelectorAll(".nav-link");
 
 // Hamburger menu function
 burger.addEventListener("click", () => {
-  ul.classList.toggle("show");
+    ul.classList.toggle("show");
 });
 
 // Close hamburger menu when a link is clicked
 navLink.forEach((link) =>
-  link.addEventListener("click", () => {
-    ul.classList.remove("show");
-  })
+    link.addEventListener("click", () => {
+        ul.classList.remove("show");
+    })
 );
 
