@@ -2,7 +2,7 @@
 
 /* Variables */
 :root {
-    --font-family: "Poppins", sans-serf;
+    --font-family: "Poppins", sans-serif;
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
@@ -90,6 +90,7 @@ nav a.active {
 
 /* hero section */
 
+
 .hero {
     display: flex;
     align-items: center;
@@ -133,14 +134,13 @@ nav a.active {
 }
 
 .more-about h2 {
-    margin-bottom: var(--bottom-margin);
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
+    
 }
 
-.more-about p {
-    line-height: var(--line-height);
-    padding: 0.4rem;
-}
+
 
 /* skills */
 
@@ -154,7 +154,7 @@ nav a.active {
 /* skill header + animation */
 .skill-header {
     margin-bottom: 1rem;
-    position: relative; /* Ensure relative positioning for absolute child elements */
+    position: relative; 
 }
 
 .glow {
@@ -167,6 +167,7 @@ nav a.active {
     background: rgba(255, 255, 255, 0.5);
     z-index: -1;
     animation: glowAnimation 2s infinite alternate;
+    margin-bottom: 10px;
 }
 
 @keyframes glowAnimation {
