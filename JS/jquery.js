@@ -1,4 +1,4 @@
-// top skills card animation
+// nav bar hover animation
 
 $(document).ready(function(){
     $('.nav-link').hover(
@@ -11,6 +11,8 @@ $(document).ready(function(){
     );
 });
 
+// top skills card hover 
+
 $(document).ready(function() {
     $('.icon-card').hover(
         function() {
@@ -21,6 +23,22 @@ $(document).ready(function() {
         }
     );
 });
+
+// projects card hover 
+
+$(document).ready(function() {
+    $('.project-pic').hover(
+        function() {
+            $(this).css('transform', 'scale(1.07)'); // increases size on hover
+        },
+        function() {
+            $(this).css('transform', 'scale(1)'); // restores size on mouse leave
+        }
+    );
+});
+
+
+
 
 // h1 hero animation (on hover)
 
