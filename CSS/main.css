@@ -334,6 +334,22 @@ footer {
     margin: 2rem 0 0;
 }
 
+/* scroll to top */
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 1%;
+    z-index: 2;
+    cursor: pointer;
+    transition: transform 0.3s;
+   
+}
+
+.scroll-to-top:hover {
+    transform: scale(1.1);
+}
+
 /* media querys */
 
 @media screen and (max-width: 720px) {
